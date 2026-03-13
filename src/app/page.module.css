@@ -12,4 +12,9 @@
      border: 0.2rem solid #f00;
      height: 45vh;
      width: 100%;
+     border-radius: 1rem;
+     padding: 1rem;
+     overflow: auto;
+     display: flex;
+     flex-direction: column;
 }
