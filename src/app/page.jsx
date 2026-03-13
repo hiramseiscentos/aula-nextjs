@@ -1,0 +1,18 @@
+import image from "next/image";
+import styles from "./page.module.css"
+
+function home () {
+    return (
+        <div className={styles.containerHome}>
+        <div className={styles.containerListas}>
+            <h1>exemplos</h1>
+        </div>
+
+        <div className={styles.containerListas}>
+             <h1>atividades</h1>
+        </div>
+        </div>
+    );
+}
+
+export default home;
