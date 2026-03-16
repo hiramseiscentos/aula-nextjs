@@ -1,6 +1,8 @@
-function exemplo01 () {
+import styles from "./page.module.css";
+import Image from "next/image";
+function atividade1 () {
     return (
-        <div>
+        <div className={styles.aaaa}>
             <h1>PANTHEON</h1>
             <br></br>
             <h2>boneco com mais aura do lol:</h2>
@@ -11,4 +13,4 @@ function exemplo01 () {
     )
 }
 
-export default exemplo01;
+export default atividade1;
