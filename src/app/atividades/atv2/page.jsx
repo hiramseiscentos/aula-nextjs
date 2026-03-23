@@ -1,0 +1,25 @@
+'use client'
+import styles from "./page.module.css";
+import { useState } from "react";
+
+export default function Exemplo03() {  
+
+    const [num, setNum] = useState(100);
+
+    function handleIncrementa () {
+        setNum(num + 1);
+    }
+    function handlereducao () {
+        setNum(num - 1);
+    }
+
+    return (
+        <div className={styles.borda}>
+        <>
+            <label>{`Contador: ${num}`}</label>            
+            <button onClick={() => handleIncrementa()}className={styles.text}>+1</button>
+            <button onClick={() => handlereducao()}className={styles.text}>-1</button>
+        </>
+        </div>
+    );
+}
