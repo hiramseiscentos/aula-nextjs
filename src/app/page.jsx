@@ -9,6 +9,7 @@ function home () {
             <Link href="/exemplos/ex-01">exemplo 1</Link>
             <Link href="/exemplos/ex-02">exemplo 2</Link>
             <Link href="/exemplos/ex-03">exemplo 3</Link>
+            <Link href="/exemplos/ex-04">exemplo 4</Link>
             
         </div>
 
