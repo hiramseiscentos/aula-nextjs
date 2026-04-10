@@ -27,7 +27,7 @@ const [acao, setAcao] = useState('');
     }
 
 return (
-        <div className={styles.conteiner}>
+        <div className={styles.botao}>
             <h1>Atividade 3</h1>
             <h2>Acão selecionada é :  {acao}</h2>
             
@@ -39,7 +39,7 @@ return (
             {/* Passando funções e textos via Props para o componente Botao */}
             <Botao texto="Cadastrar" aoClicar={handleCadastrar} acao={'Cadastrar'} />
             <Botao texto="Editar" aoClicar={handleEditar} acao={'Editar'} />
-             <Botao texto="Listar" aoClicar={handleListar} acao={'Listar'} />
+            <Botao texto="Listar" aoClicar={handleListar} acao={'Listar'} />
             <Botao texto="Excluir" aoClicar={handleExcluir} acao={'Excluir'} /> 
             <Botao texto="Cancelar" aoClicar={handleCancelar} acao={'Cancelar'} />
          </div>
