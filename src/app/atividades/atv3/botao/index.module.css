@@ -4,10 +4,20 @@
     margin: 0.5rem;
 }
 
-.mais {
+.Cadastrar {
     background-color: forestgreen;
 }
 
-.menos {
+.Editar {
     background-color: tomato;
 }
+.Listar {
+    background-color: rgb(0, 204, 255);
+}
+.Excluir {
+    background-color: rgb(133, 30, 119);
+}
+.Cancelar {
+    background-color: rgb(4, 87, 112);
+}
+
