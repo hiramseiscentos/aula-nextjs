@@ -10,8 +10,11 @@ function Exemplo04() {
     // O hook useState gerencia o valor do contador
     const [contador, setContador] = useState(0);
 
-    const incrementar = () => setContador(contador + 1);
-    const decrementar = () => setContador(contador - 1);
+    const excluir = () => setContador('excluir');
+    const listar = () => setContador('listar');
+    const editar = () => setContador('editar');
+    const cadastrar = () => setContador('cadastrar');
+    const cancelar = () => setContador('cancelar');
     
 
     return (
@@ -20,8 +23,11 @@ function Exemplo04() {
             <h2>O valor atual é: {contador}</h2>
 
             {/* Passando funções e textos via Props para o componente Botao */}
-            <Botao texto="Diminuir -" aoClicar={decrementar} acao={'-'} />
-            <Botao texto="Aumentar +" aoClicar={incrementar} acao={'+'} />
+            <Botao texto="excluir" aoClicar={excluir} acao={'excluir'} />
+            <Botao texto="listar" aoClicar={listar} acao={'listar'} />
+            <Botao texto="editar" aoClicar={editar} acao={'editar'} />
+            <Botao texto="cadastrar" aoClicar={cadastrar} acao={'cadastrar'} />
+            <Botao texto="cancelar" aoClicar={cancelar} acao={'cancelar'} />
         </div>
     );
 }

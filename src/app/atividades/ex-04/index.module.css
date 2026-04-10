@@ -1,0 +1,22 @@
+.botao {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.Excluir{
+    background-color: forestgreen;
+}
+
+.Listar {
+    background-color:darkmagenta;
+}
+.Editar {
+    background-color:brown;
+}
+.Cadastrar {
+    background-color:chocolate;
+}
+.Cancelar {
+    background-color:blue;
+}
