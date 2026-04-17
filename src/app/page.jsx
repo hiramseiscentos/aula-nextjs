@@ -10,14 +10,16 @@ function home () {
             <Link href="/exemplos/ex-02">exemplo 2</Link>
             <Link href="/exemplos/ex-03">exemplo 3</Link>
             <Link href="/exemplos/ex-04">exemplo 4</Link>
+            <Link href="/exemplos/ex-05">exemplo 5</Link>
             
         </div>
 
         <div className={styles.containerListas}>
              <h1>atividades</h1>
-              <Link href="/atividades/atv1">atividade1</Link>
-              <Link href="/atividades/atv2">atividade2</Link>
-              <Link href="/atividades/atv3">atividade3</Link>
+              <Link href="/atividades/atv1">atividade 1</Link>
+              <Link href="/atividades/atv2">atividade 2</Link>
+              <Link href="/atividades/atv3">atividade 3</Link>
+              <Link href="/atividades/atv4">atividade 4</Link>
         </div>
         </div>
     );
