@@ -15,7 +15,7 @@ const [acao, setAcao] = useState('');
         setAcao('Cadastrar');
     }
        function handleEditar () {
-        setAcao('editar');
+        setAcao('Editar');
     }
   function handleListar () {
         setAcao('Listar');

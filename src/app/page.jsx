@@ -11,6 +11,7 @@ function home () {
             <Link href="/exemplos/ex-03">exemplo 3</Link>
             <Link href="/exemplos/ex-04">exemplo 4</Link>
             <Link href="/exemplos/ex-05">exemplo 5</Link>
+            <Link href="/exemplos/ex-06">exemplo 6</Link>
             
         </div>
 
@@ -20,6 +21,7 @@ function home () {
               <Link href="/atividades/atv2">atividade 2</Link>
               <Link href="/atividades/atv3">atividade 3</Link>
               <Link href="/atividades/atv4">atividade 4</Link>
+              <Link href="/atividades/atv5">atividade 5</Link>
         </div>
         </div>
     );
